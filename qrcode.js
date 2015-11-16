@@ -411,7 +411,7 @@ exports.qrcode = function() {
 
 			var qrHtml = '';
 
-			qrHtml += '<table style="';
+			qrHtml += '<table style="min-width: 230px !important;';
 			qrHtml += ' border-width: 0px; border-style: none;';
 			qrHtml += ' border-collapse: collapse;';
 			qrHtml += ' padding: 0px; margin: ' + margin + 'px;';
